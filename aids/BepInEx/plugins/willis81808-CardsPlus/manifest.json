@@ -1,0 +1,10 @@
+{
+    "name": "CardsPlus",
+    "version_number": "1.1.7",
+    "website_url": "https://github.com/willis81808/CardsPlus",
+    "description": "Adds a handful of new cards to the game",
+    "dependencies": [
+    	"willis81808-UnboundLib-2.7.3",
+    	"Pykess-CardChoiceSpawnUniqueCardPatch-0.1.7"
+    ]
+}

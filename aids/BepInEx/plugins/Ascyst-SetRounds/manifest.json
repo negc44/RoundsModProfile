@@ -1,0 +1,11 @@
+{
+    "name": "SetRounds",
+    "version_number": "1.2.3",
+    "website_url": "https://discord.gg/zUtsjXWeWk",
+    "description": "Set the amount of rounds you want to play per game, as well as the point per round. Set using Mod Options",
+    "dependencies": [
+        "willis81808-UnboundLib-2.11.1",
+	"willis81808-MMHook-1.0.0",
+	"BepInEx-BepInExPack_ROUNDS-5.4.1100"
+    ]
+}

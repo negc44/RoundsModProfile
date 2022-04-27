@@ -1,0 +1,291 @@
+- manifestVersion: 1
+  name: BepInEx-BepInExPack_ROUNDS
+  authorName: BepInEx
+  websiteUrl: https://rounds.thunderstore.io/package/BepInEx/BepInExPack_ROUNDS/
+  displayName: BepInExPack_ROUNDS
+  description: BepInEx pack for ROUNDS. Preconfigured and ready to use.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 5
+    minor: 4
+    patch: 1100
+  enabled: true
+  icon: C:\Users\Nic\AppData\Roaming\r2modmanPlus-local\ROUNDS\cache\BepInEx-BepInExPack_ROUNDS\5.4.1100\icon.png
+- manifestVersion: 1
+  name: willis81808-MMHook
+  authorName: willis81808
+  websiteUrl: https://rounds.thunderstore.io/package/willis81808/MMHook/
+  displayName: MMHook
+  description: MonoMod Runtime Hooks generated for ROUNDS
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\Nic\AppData\Roaming\r2modmanPlus-local\ROUNDS\profiles\aids\BepInEx\plugins\willis81808-MMHook\icon.png
+- manifestVersion: 1
+  name: willis81808-UnboundLib
+  authorName: willis81808
+  websiteUrl: https://rounds.thunderstore.io/package/willis81808/UnboundLib/
+  displayName: UnboundLib
+  description: This is a helpful utility for ROUNDS modders aimed at simplifying
+    common tasks.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+    - willis81808-MMHook-1.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 11
+    patch: 1
+  enabled: true
+  icon: C:\Users\Nic\AppData\Roaming\r2modmanPlus-local\ROUNDS\profiles\aids\BepInEx\plugins\willis81808-UnboundLib\icon.png
+- manifestVersion: 1
+  name: Ascyst-SetRounds
+  authorName: Ascyst
+  websiteUrl: https://rounds.thunderstore.io/package/Ascyst/SetRounds/
+  displayName: SetRounds
+  description: Set the amount of rounds you want to play per game, as well as the
+    point per round. Set using Mod Options
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - willis81808-UnboundLib-2.11.1
+    - willis81808-MMHook-1.0.0
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 3
+  enabled: true
+  icon: C:\Users\Nic\AppData\Roaming\r2modmanPlus-local\ROUNDS\profiles\aids\BepInEx\plugins\Ascyst-SetRounds\icon.png
+- manifestVersion: 1
+  name: Pykess-Pick_N_Cards
+  authorName: Pykess
+  websiteUrl: https://rounds.thunderstore.io/package/Pykess/Pick_N_Cards/
+  displayName: Pick_N_Cards
+  description: Pick more cards! (In a way compatible with other mods!)
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - willis81808-UnboundLib-2.10.2
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 2
+    patch: 2
+  enabled: true
+  icon: C:\Users\Nic\AppData\Roaming\r2modmanPlus-local\ROUNDS\profiles\aids\BepInEx\plugins\Pykess-Pick_N_Cards\icon.png
+- manifestVersion: 1
+  name: Pykess-ModdingUtils
+  authorName: Pykess
+  websiteUrl: https://rounds.thunderstore.io/package/Pykess/ModdingUtils/
+  displayName: ModdingUtils
+  description: Utilities aimed at making modding easier and more accessible
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - willis81808-UnboundLib-2.10.2
+    - willis81808-MMHook-1.0.0
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 2
+    patch: 7
+  enabled: true
+  icon: C:\Users\Nic\AppData\Roaming\r2modmanPlus-local\ROUNDS\profiles\aids\BepInEx\plugins\Pykess-ModdingUtils\icon.png
+- manifestVersion: 1
+  name: Pykess-CardChoiceSpawnUniqueCardPatch
+  authorName: Pykess
+  websiteUrl: https://rounds.thunderstore.io/package/Pykess/CardChoiceSpawnUniqueCardPatch/
+  displayName: CardChoiceSpawnUniqueCardPatch
+  description: Patches erroneous logic in the base game CardChoice method SpawnUniqueCard
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+    - willis81808-UnboundLib-2.7.3
+    - Pykess-ModdingUtils-0.1.8
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 1
+    patch: 7
+  enabled: true
+  icon: C:\Users\Nic\AppData\Roaming\r2modmanPlus-local\ROUNDS\profiles\aids\BepInEx\plugins\Pykess-CardChoiceSpawnUniqueCardPatch\icon.png
+- manifestVersion: 1
+  name: willis81808-CardsPlus
+  authorName: willis81808
+  websiteUrl: https://rounds.thunderstore.io/package/willis81808/CardsPlus/
+  displayName: CardsPlus
+  description: Adds a handful of new cards to the game
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - willis81808-UnboundLib-2.7.3
+    - Pykess-CardChoiceSpawnUniqueCardPatch-0.1.7
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 7
+  enabled: true
+  icon: C:\Users\Nic\AppData\Roaming\r2modmanPlus-local\ROUNDS\profiles\aids\BepInEx\plugins\willis81808-CardsPlus\icon.png
+- manifestVersion: 1
+  name: RoundsModding-Performance_Improvements
+  authorName: RoundsModding
+  websiteUrl: https://rounds.thunderstore.io/package/RoundsModding/Performance_Improvements/
+  displayName: Performance_Improvements
+  description: Lots of options to improve performance and stability
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - willis81808-UnboundLib-2.11.1
+    - willis81808-MMHook-1.0.0
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:\Users\Nic\AppData\Roaming\r2modmanPlus-local\ROUNDS\profiles\aids\BepInEx\plugins\RoundsModding-Performance_Improvements\icon.png
+- manifestVersion: 1
+  name: willuwontu-BlockForcePatch
+  authorName: willuwontu
+  websiteUrl: https://rounds.thunderstore.io/package/willuwontu/BlockForcePatch/
+  displayName: BlockForcePatch
+  description: Fixes issues with some block stats not working properly.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:\Users\Nic\AppData\Roaming\r2modmanPlus-local\ROUNDS\profiles\aids\BepInEx\plugins\willuwontu-BlockForcePatch\icon.png
+- manifestVersion: 1
+  name: ranz-RanzDeck
+  authorName: ranz
+  websiteUrl: https://rounds.thunderstore.io/package/ranz/RanzDeck/
+  displayName: RanzDeck
+  description: Just some random cards for development / testing purposes.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+    - willis81808-UnboundLib-2.10.2
+    - Pykess-ModdingUtils-0.2.6
+    - Pykess-CardChoiceSpawnUniqueCardPatch-0.1.7
+    - willuwontu-BlockForcePatch-1.0.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 2
+  enabled: true
+  icon: C:\Users\Nic\AppData\Roaming\r2modmanPlus-local\ROUNDS\profiles\aids\BepInEx\plugins\ranz-RanzDeck\icon.png
+- manifestVersion: 1
+  name: Pykess-Toggle_Friendly_Fire
+  authorName: Pykess
+  websiteUrl: https://rounds.thunderstore.io/package/Pykess/Toggle_Friendly_Fire/
+  displayName: Toggle_Friendly_Fire
+  description: Options to toggle friendly fire and self damage. Commissioned by Zenith
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - willis81808-UnboundLib-2.7.0
+    - willis81808-MMHook-1.0.0
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\Nic\AppData\Roaming\r2modmanPlus-local\ROUNDS\profiles\aids\BepInEx\plugins\Pykess-Toggle_Friendly_Fire\icon.png
+- manifestVersion: 1
+  name: olavim-RoundsWithFriends
+  authorName: olavim
+  websiteUrl: https://rounds.thunderstore.io/package/olavim/RoundsWithFriends/
+  displayName: RoundsWithFriends
+  description: ROUNDS multiplayer extension
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack_ROUNDS-5.4.1100
+    - willis81808-UnboundLib-2.11.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 2
+    patch: 0
+  enabled: true
+  icon: C:\Users\Nic\AppData\Roaming\r2modmanPlus-local\ROUNDS\cache\olavim-RoundsWithFriends\2.2.0\icon.png
